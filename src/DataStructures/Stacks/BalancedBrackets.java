@@ -9,7 +9,6 @@ import java.util.regex.*;
  * Created by ryu on 23/2/17.
  */
 public class BalancedBrackets {
-
     static boolean checkBrackets(String str) {
         Stack<String> stack = new Stack<String>();
         boolean isBalance = false;
