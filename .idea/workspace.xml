@@ -83,11 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaSubarray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JavaSubarray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java/DataStructures/JavaSubarray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
               <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaArrayList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Java/DataStructures/JavaArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -109,18 +119,6 @@
             <state relative-caret-position="216">
               <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaRegexUsernameChecker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java/Strings/JavaRegexUsernameChecker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -178,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/Java/DataStructures/JavaOneDArray.java" />
         <option value="$PROJECT_DIR$/src/Java/DataStructures/JavaTwoDArray.java" />
         <option value="$PROJECT_DIR$/src/Java/DataStructures/JavaSubarray.java" />
+        <option value="$PROJECT_DIR$/src/Java/DataStructures/JavaArrayList.java" />
       </list>
     </option>
   </component>
@@ -299,27 +298,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
-  <component name="RunManager" selected="Application.JavaSubarray">
-    <configuration default="false" name="JavaBigInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Java.BigNumber.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Java.BigNumber.JavaBigInteger" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Hackerrank" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.JavaArrayList">
     <configuration default="false" name="JavaPrimalityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -388,6 +367,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Java.DataStructures.JavaSubarray" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Hackerrank" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="JavaArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Java.DataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Java.DataStructures.JavaArrayList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -621,19 +620,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.JavaBigInteger" />
-      <item index="1" class="java.lang.String" itemvalue="Application.JavaPrimalityTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.JavaOneDArray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.JavaTwoDArray" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JavaSubarray" />
+      <item index="0" class="java.lang.String" itemvalue="Application.JavaPrimalityTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.JavaOneDArray" />
+      <item index="2" class="java.lang.String" itemvalue="Application.JavaTwoDArray" />
+      <item index="3" class="java.lang.String" itemvalue="Application.JavaSubarray" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JavaArrayList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.JavaSubarray" />
-        <item index="1" class="java.lang.String" itemvalue="Application.JavaTwoDArray" />
-        <item index="2" class="java.lang.String" itemvalue="Application.JavaOneDArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JavaPrimalityTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.JavaBigInteger" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JavaArrayList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JavaSubarray" />
+        <item index="2" class="java.lang.String" itemvalue="Application.JavaTwoDArray" />
+        <item index="3" class="java.lang.String" itemvalue="Application.JavaOneDArray" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JavaPrimalityTest" />
       </list>
     </recent_temporary>
   </component>
@@ -717,14 +716,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Java/Strings/JavaStringCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java/Strings/JavaStringReverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1085,6 +1076,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/DataStructures/JavaArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding />
         </state>
       </provider>
