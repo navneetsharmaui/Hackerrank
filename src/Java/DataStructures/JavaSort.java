@@ -4,11 +4,11 @@ import java.util.*;
 /**
  * Created by ryu on 1/3/17.
  */
-class Student{
+class Men{
     private int id;
     private String fname;
     private double cgpa;
-    public Student(int id, String fname, double cgpa) {
+    public Men(int id, String fname, double cgpa) {
         super();
         this.id = id;
         this.fname = fname;
@@ -30,19 +30,19 @@ public class JavaSort {
         Scanner in = new Scanner(System.in);
         int testCases = Integer.parseInt(in.nextLine());
 
-        List<Student> studentList = new ArrayList<Student>();
+        List<Men> menList = new ArrayList<Men>();
         while(testCases-- >0){
             int id = in.nextInt();
             String fname = in.next();
             double cgpa = in.nextDouble();
 
-            Student st = new Student(id, fname, cgpa);
-            studentList.add(st);
+            Men st = new Men(id, fname, cgpa);
+            menList.add(st);
         }
         in.close();
-        Collections.sort(studentList, new Comparator<Student>() {
+        Collections.sort(menList, new Comparator<Men>() {
             @Override
-            public int compare(Student s2, Student s1)
+            public int compare(Men s2, Men s1)
             {
                 if ((Double.compare(s2.getCgpa(), s1.getCgpa())==0) && s2.getFname().equals(s1.getFname())==true) return s1.getId()-s2.getId();
                 else if(Double.compare(s2.getCgpa(), s1.getCgpa())==0) return s2.getFname().compareTo(s1.getFname());
@@ -50,6 +50,6 @@ public class JavaSort {
             }
         });
 
-        for(Student st: studentList) System.out.println(st.getFname());
+        for(Men st: menList) System.out.println(st.getFname());
     }
 }
