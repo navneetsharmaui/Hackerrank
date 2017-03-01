@@ -85,11 +85,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaDequeue.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JavaDequeue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="252">
+              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaBitSet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Java/DataStructures/JavaBitSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -159,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/Java/DataStructures/JavaComparator.java" />
         <option value="$PROJECT_DIR$/src/Java/DataStructures/JavaSort.java" />
         <option value="$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java" />
+        <option value="$PROJECT_DIR$/src/Java/DataStructures/JavaBitSet.java" />
       </list>
     </option>
   </component>
@@ -280,27 +291,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
-  <component name="RunManager" selected="Application.JavaDequeue">
-    <configuration default="false" name="JavaHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Java.DataStructures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Java.DataStructures.JavaHashSet" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Hackerrank" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.JavaBitSet">
     <configuration default="false" name="JavaGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -369,6 +360,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Java.DataStructures.JavaDequeue" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Hackerrank" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="JavaBitSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Java.DataStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Java.DataStructures.JavaBitSet" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -602,19 +613,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.JavaHashSet" />
-      <item index="1" class="java.lang.String" itemvalue="Application.JavaGenerics" />
-      <item index="2" class="java.lang.String" itemvalue="Application.JavaComparator" />
-      <item index="3" class="java.lang.String" itemvalue="Application.JavaSort" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JavaDequeue" />
+      <item index="0" class="java.lang.String" itemvalue="Application.JavaGenerics" />
+      <item index="1" class="java.lang.String" itemvalue="Application.JavaComparator" />
+      <item index="2" class="java.lang.String" itemvalue="Application.JavaSort" />
+      <item index="3" class="java.lang.String" itemvalue="Application.JavaDequeue" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JavaBitSet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.JavaDequeue" />
-        <item index="1" class="java.lang.String" itemvalue="Application.JavaSort" />
-        <item index="2" class="java.lang.String" itemvalue="Application.JavaComparator" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JavaGenerics" />
-        <item index="4" class="java.lang.String" itemvalue="Application.JavaHashSet" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JavaBitSet" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JavaDequeue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.JavaSort" />
+        <item index="3" class="java.lang.String" itemvalue="Application.JavaComparator" />
+        <item index="4" class="java.lang.String" itemvalue="Application.JavaGenerics" />
       </list>
     </recent_temporary>
   </component>
@@ -691,181 +702,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>6</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java</url>
-          <line>7</line>
-          <properties class="Java.DataStructures.JavaDequeue" method="main" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
@@ -875,16 +711,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructures/Stacks/Arrays/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/DataStructures/Example.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -1251,8 +1077,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java/DataStructures/JavaDequeue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="252">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java/DataStructures/JavaBitSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding />
         </state>
       </provider>
