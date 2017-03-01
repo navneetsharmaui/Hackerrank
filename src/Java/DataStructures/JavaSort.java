@@ -50,8 +50,6 @@ public class JavaSort {
             }
         });
 
-        for(Student st: studentList){
-            System.out.println(st.getFname());
-        }
+        for(Student st: studentList) System.out.println(st.getFname());
     }
 }
