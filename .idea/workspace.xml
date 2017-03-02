@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021a0333-31f9-4a18-a8bb-ba6a73f80d8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Java/ExceptionHandling/JavaExceptionHandling.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Java/ExceptionHandling/JavaExceptionHandlingTwo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaAbstractClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaCalculatingVolume.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaInheritanceI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaInheritanceII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaInstanceofkeyword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaMethodOverriding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaMethodOverridingTwo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -36,16 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JavaInheritanceI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaInheritanceI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="JavaAbstractClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaAbstractClass.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,12 +105,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JavaExceptionHandlingTwo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JavaExceptionHandlingTwo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java/ExceptionHandling/JavaExceptionHandlingTwo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -157,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Java/Introduction/JavaCurrencyFormatter.java" />
         <option value="$PROJECT_DIR$/src/Java/Strings/JavaSubstring.java" />
         <option value="$PROJECT_DIR$/src/Java/Strings/JavaStringsIntroduction.java" />
         <option value="$PROJECT_DIR$/src/Java/Strings/JavaStringCompare.java" />
@@ -208,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/Java/ObjectOrientedProgramming/JavaCalculatingVolume.java" />
         <option value="$PROJECT_DIR$/src/Java/ExceptionHandling/JavaExceptionHandling.java" />
         <option value="$PROJECT_DIR$/src/Java/ExceptionHandling/JavaExceptionHandlingTwo.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -217,7 +209,7 @@
     <option name="height" value="741" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -269,46 +261,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hackerrank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hackerrank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExceptionHandling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaExceptionHandlingTwo.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hackerrank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hackerrank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExceptionHandling" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -785,13 +737,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Java/Strings/JavaStringTokens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Java/Strings/JavaStringReverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1182,6 +1127,17 @@
         <state relative-caret-position="252">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 # Hackerrank
 My Hackerrank Solutions
-
+This project is built in IntelliJIdea. Just import in IntelliJIdea to see the solutions or your can browse it on GitHub.
 For next 100 Days I will be solving programming questions a day Whether it is on Hackerrank, Hackerearth or Codechef.
  
 This are the rules that I will be following
