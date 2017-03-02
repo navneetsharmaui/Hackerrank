@@ -11,14 +11,9 @@ import java.util.regex.*;
  */
 public class MegaPrime {
     public static boolean isPrimeNumber(int number) {
+        if (number == 2 || number == 3 || number == 5 || number == 7 ) return true;
 
-        for(int i=2; i<=number/2; i++){
-            if(number % i == 0){
-                return false;
-            }
-        }
-        return true;
-
+        return false;
     }
 
     void megaPrime(long n, long k)
@@ -53,54 +48,12 @@ public class MegaPrime {
             }
         }
 
-        for(int i = 2; i <= n; i++)
-        {   int j, num=0, num1=0;
-            if (prime[i]) {
-                j=i; temp=i;
-                while(temp>0) {
-                    temp=temp/10;
-                    countDigit++;
-                }
-                if (countDigit==3) {
-                    while(countDigit > 2) {
-                        num=j%100;
-                        if (prime[i]) {
-                            prime[i]=isPrimeNumber(num);
-                        }
-                        num1=j/10;
-                        if (prime[i]) {
-                            prime[i]=isPrimeNumber(num1);
-                        }
-                        countDigit--;
-                    }
-                }
-                /*if (countDigit==4) {
-                    while(countDigit > 3) {
-                        num=j%1000;
-                        if (prime[i]) {
-                            prime[i]=isPrimeNumber(num);
-                        }
-                        num1=j%100;
-                        if (prime[i]) {
-                            prime[i]=isPrimeNumber(num1);
-                        }
-                        num1=j/100;
-                        if (prime[i]) prime[i]=isPrimeNumber(num1);
-                        countDigit--;
-                    }
-                } */
-            }
-            countDigit=0;
-        }
-
         for(int i = (int)k; i <= n; i++)
         {
             if(prime[i] == true) {
                 count++;
-                System.out.print(i + " ");
             }
         }
-        System.out.println();
         System.out.println(count);
     }
 
@@ -110,8 +63,6 @@ public class MegaPrime {
         Scanner in = new Scanner(System.in);
         long first = in.nextLong();
         long last = in.nextLong();
-        System.out.print("Following are the prime numbers ");
-        System.out.println("smaller than or equal to " + last);
         MegaPrime g = new MegaPrime();
         g.megaPrime(last, first);
     }

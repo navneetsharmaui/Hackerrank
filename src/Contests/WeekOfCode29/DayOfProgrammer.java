@@ -19,7 +19,7 @@ public class DayOfProgrammer {
     }
     private static void gregorianCalendar(int year) {
         int feb=28, day;
-        if (year%4==0 || year%400==0) {
+        if (year%400==0 || (year%4==0 && year%100!=0)) {
             feb=29;
         }
         day = 256-(215+feb);
@@ -30,8 +30,8 @@ public class DayOfProgrammer {
     }
     private static void checkYear(int year) {
         if (year < 1918) julianCalendar(year);
-        else if (year > 1918) gregorianCalendar(year);
-        else subtleYear(year);
+        else if (year >=1919) gregorianCalendar(year);
+        else if (year==1918) subtleYear(year);
     }
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
