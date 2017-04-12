@@ -36,14 +36,16 @@ public class BeautifulWord {
         int count =0;
         String word = w.toLowerCase();
         int len = word.length();
-        for (int i=0;i<len-1;i++) {
-            if (word.charAt(i)!=word.charAt(i+1)){
-                if ((isVowel(word.charAt(i)) && !isVowel(word.charAt(i + 1)))|| (!isVowel(word.charAt(i)) && isVowel(word.charAt(i + 1)))|| (!isVowel(word.charAt(i)) && !isVowel(word.charAt(i + 1)))) {
-                    count++;
-                    if (i+1==len-1) count++;
+        if (len>1) {
+            for (int i = 0; i < len - 1; i++) {
+                if (word.charAt(i) != word.charAt(i + 1)) {
+                    if ((isVowel(word.charAt(i)) && !isVowel(word.charAt(i + 1))) || (!isVowel(word.charAt(i)) && isVowel(word.charAt(i + 1))) || (!isVowel(word.charAt(i)) && !isVowel(word.charAt(i + 1)))) {
+                        count++;
+                        if (i + 1 == len - 1) count++;
+                    }
                 }
             }
-        }
-        System.out.println(count==len?"Yes":"No");
+            System.out.println(count==len?"Yes":"No");
+        } else System.out.println("Yes");
     }
 }
