@@ -28,9 +28,10 @@ public class AccurateSorting {
                     }
                 }
             }
-            Arrays.sort(b);
+            Arrays.parallelSort(b);
             System.out.println(Arrays.equals(a, b)?"Yes":"No");
             t--;
         }
+        in.close();
     }
 }
