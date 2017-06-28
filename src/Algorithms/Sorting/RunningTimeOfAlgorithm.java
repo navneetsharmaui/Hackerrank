@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Navneet Sharma (navneetzz) ryu on 28/6/17.
  */
 public class RunningTimeOfAlgorithm {
-    
+
     static int insertIntoSorted (int[] arr) {
         int n = arr.length;
         int count=0;
