@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 /**
- * Created by ryu on 18/4/17.
+ * Created by Navneet Sharma (navneetzz) ryu on 18/4/17.
  */
 public class MigratoryBird {
     public static void main (String[] args) {

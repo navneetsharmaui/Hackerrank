@@ -3,7 +3,7 @@ package Algorithms.Implementation;
 import java.util.Scanner;
 
 /**
- * Created by ryu on 28/6/17.
+ * Created by Navneet Sharma (navneetzz) ryu on 28/6/17.
  */
 public class DayOfProgrammer {
     static String solve(int year){
