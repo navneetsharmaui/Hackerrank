@@ -6,6 +6,7 @@ import java.util.Scanner;
 /**
  * Created by Navneet Sharma (navneetzz) ryu on 1/7/17.
  */
+
 public class CutTheSticks {
     static void cutTheSticks (int[] arr, int n) {
         int sticks = n;
