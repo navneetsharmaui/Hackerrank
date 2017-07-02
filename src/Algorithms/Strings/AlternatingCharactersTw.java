@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Created by Navneet Sharma (navneetzz) ryu on 2/7/17.
  */
 public class AlternatingCharactersTw {
-    static int alternatingCharacters(String s){
+    private static int alternatingCharacters(String s){
         int count = 1;
         int delete = 0;
         for (int i=1;i<s.length();i++) {
