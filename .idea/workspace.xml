@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021a0333-31f9-4a18-a8bb-ba6a73f80d8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Strings/Pangram.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Strings/WeightUniformStrings.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,16 +37,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExtraLongFactorials.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Algorithms/Implementation/ExtraLongFactorials.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AppendAndDelete.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/Implementation/AppendAndDelete.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,10 +62,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,11 +97,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pangram.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pangram.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Algorithms/Strings/Pangram.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
               <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeightUniformStrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Algorithms/Strings/WeightUniformStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Contests/WeekOfCode29/MegaPrime.java" />
         <option value="$PROJECT_DIR$/src/Contests/WeekOfCode29/BigSortingMethodTwo.java" />
         <option value="$PROJECT_DIR$/src/Contests/WeekOfCode30/CandyReplenishingRobot.java" />
         <option value="$PROJECT_DIR$/src/Contests/WeekOfCode30/FindTheMinimumNumber.java" />
@@ -217,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/Algorithms/Strings/MarsExplorationTwo.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Strings/HackerrankInAString.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Strings/Pangram.java" />
+        <option value="$PROJECT_DIR$/src/Algorithms/Strings/WeightUniformStrings.java" />
       </list>
     </option>
   </component>
@@ -376,27 +375,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Pangram">
-    <configuration default="false" name="CaeserChipher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Strings.CaeserChipher" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Hackerrank" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.WeightUniformStrings">
     <configuration default="false" name="MarsExploration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -465,6 +444,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Algorithms.Strings.Pangram" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Hackerrank" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="WeightUniformStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Algorithms.Strings.WeightUniformStrings" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -695,19 +694,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CaeserChipher" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MarsExploration" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MarsExplorationTwo" />
-      <item index="3" class="java.lang.String" itemvalue="Application.HackerrankInAString" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Pangram" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MarsExploration" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MarsExplorationTwo" />
+      <item index="2" class="java.lang.String" itemvalue="Application.HackerrankInAString" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Pangram" />
+      <item index="4" class="java.lang.String" itemvalue="Application.WeightUniformStrings" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Pangram" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HackerrankInAString" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MarsExplorationTwo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MarsExploration" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CaeserChipher" />
+        <item index="0" class="java.lang.String" itemvalue="Application.WeightUniformStrings" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Pangram" />
+        <item index="2" class="java.lang.String" itemvalue="Application.HackerrankInAString" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MarsExplorationTwo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MarsExploration" />
       </list>
     </recent_temporary>
   </component>
@@ -805,13 +804,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Contests/WeekOfCode30/FindTheMinimumNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Contests/WeekOfCode30/MelodiousPassword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -1109,10 +1101,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,6 +1158,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Algorithms/Strings/WeightUniformStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
