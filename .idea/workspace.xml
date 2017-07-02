@@ -5,10 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/Contests/WeekOfCode31/BeautifulWord.java" line="33" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="021a0333-31f9-4a18-a8bb-ba6a73f80d8f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Algorithms/Strings/WeightUniformStrings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="021a0333-31f9-4a18-a8bb-ba6a73f80d8f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
