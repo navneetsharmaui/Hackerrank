@@ -15,6 +15,7 @@ public class QuickSortInPlace {
                 int temp =arr[i];
                 arr[i]=arr[j];
                 arr[j]=temp;
+
             }
         }
         int temp=arr[high];
