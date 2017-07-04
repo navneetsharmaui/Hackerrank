@@ -13,7 +13,7 @@ public class MergePointOfTwoLists {
             next=null;
         }
     }
-    int getNode () {
+    int findMergeNode () {
         int a = getCount(head1);
         int b = getCount(head2);
         if (a>b) {
@@ -61,6 +61,6 @@ public class MergePointOfTwoLists {
         m.head2.next = new Node(15);
         m.head2.next.next = new Node(30);
 
-        System.out.println(m.getNode());
+        System.out.println(m.findMergeNode());
     }
 }
