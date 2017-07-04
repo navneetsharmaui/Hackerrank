@@ -6,7 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="021a0333-31f9-4a18-a8bb-ba6a73f80d8f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DataStructures/LinkedLists/MergePointOfTwoLists.java" afterPath="$PROJECT_DIR$/src/DataStructures/LinkedLists/MergePointOfTwoLists.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DataStructures/LinkedLists/DeleteDuplicationElementsFromSortedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -26,11 +27,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MergePointOfTwoLists.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/MergePointOfTwoLists.java">
+      <file leaf-file-name="DeleteDuplicationElementsFromSortedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/DeleteDuplicationElementsFromSortedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1184">
-              <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+            <state relative-caret-position="144">
+              <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetNodeValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/GetNodeValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -70,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Algorithms/Sorting/RunningTimeOfAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Implementation/BreakingTheRecord.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Implementation/SockMerchant.java" />
         <option value="$PROJECT_DIR$/src/Algorithms/Implementation/DrawingBook.java" />
@@ -121,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/DataStructures/LinkedLists/GetNodeValue.java" />
         <option value="$PROJECT_DIR$/src/DataStructures/LinkedLists/CycleDetection.java" />
         <option value="$PROJECT_DIR$/src/DataStructures/LinkedLists/MergePointOfTwoLists.java" />
+        <option value="$PROJECT_DIR$/src/DataStructures/LinkedLists/DeleteDuplicationElementsFromSortedList.java" />
       </list>
     </option>
   </component>
@@ -280,27 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergePointOfTwoLists">
-    <configuration default="false" name="RunningTimeOfQuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Algorithms.Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Algorithms.Sorting.RunningTimeOfQuickSort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Hackerrank" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.DeleteDuplicationElementsFromSortedList">
     <configuration default="false" name="MergeTwoLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -369,6 +360,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="DataStructures.LinkedLists.MergePointOfTwoLists" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Hackerrank" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeleteDuplicationElementsFromSortedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DataStructures.LinkedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="DataStructures.LinkedLists.DeleteDuplicationElementsFromSortedList" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -602,19 +613,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RunningTimeOfQuickSort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MergeTwoLinkedList" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GetNodeValue" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CycleDetection" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MergePointOfTwoLists" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MergeTwoLinkedList" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GetNodeValue" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CycleDetection" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MergePointOfTwoLists" />
+      <item index="4" class="java.lang.String" itemvalue="Application.DeleteDuplicationElementsFromSortedList" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MergePointOfTwoLists" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CycleDetection" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GetNodeValue" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MergeTwoLinkedList" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RunningTimeOfQuickSort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.DeleteDuplicationElementsFromSortedList" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MergePointOfTwoLists" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CycleDetection" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GetNodeValue" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MergeTwoLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -712,13 +723,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Algorithms/Implementation/BreakingTheRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Algorithms/Implementation/UtopianTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1044,14 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/GetNodeValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/CycleDetection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
@@ -1064,6 +1060,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1184">
           <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/GetNodeValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="33" column="3" lean-forward="false" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructures/LinkedLists/DeleteDuplicationElementsFromSortedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
           <folding />
         </state>
       </provider>
